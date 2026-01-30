@@ -17,6 +17,10 @@ source/missing
 source/otserv
 source/stamp-h1
 source/config.h.in~
+source/config.guess
+source/config.sub
+source/ltmain.sh
+_codeql_detected_source_root
 
 # OS
 ._*
