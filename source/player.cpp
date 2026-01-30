@@ -3166,6 +3166,20 @@ Cylinder* Player::__queryDestination(int32_t& index, const Thing* thing, Item** 
 			return this;
 		}
 
+		bool autoStack = g_config.getBoolean(ConfigManager::CONTAINER_ITEMS_AUTO_STACK);
+		if(autoStack && item->isStackable()){
+			//try to find an existing item to stack with in inventory slots
+			for(int i = SLOT_FIRST; i < SLOT_LAST; ++i){
+				if(inventory[i] && inventory[i] != item && 
+				   inventory[i]->getID() == item->getID() && 
+				   inventory[i]->getItemCount() < 100){
+					*destItem = inventory[i];
+					index = i;
+					return this;
+				}
+			}
+		}
+
 		//find a appropiate slot
 		for(int i = SLOT_FIRST; i < SLOT_LAST; ++i){
 			if(inventory[i] == NULL){
