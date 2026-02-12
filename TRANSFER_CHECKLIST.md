@@ -26,11 +26,11 @@ Use this checklist when transferring your OTHire server to another computer.
   mysql -u root -p otserv < otserv_backup.sql
   ```
 - [ ] Edit config.lua:
-  - [ ] Update `ip` setting (line 29)
-  - [ ] Update `sql_host` if needed (line 344)
-  - [ ] Update `sql_user` if needed (line 346)
-  - [ ] Update `sql_pass` if needed (line 347)
-  - [ ] Update `sql_db` if needed (line 343)
+  - [ ] Update `ip` setting
+  - [ ] Update `sql_host` if needed
+  - [ ] Update `sql_user` if needed
+  - [ ] Update `sql_pass` if needed
+  - [ ] Update `sql_db` if needed
 - [ ] Configure firewall (allow ports 7171 and 7172)
 - [ ] Set up port forwarding (if hosting online)
 - [ ] Test: Start server and check for errors

@@ -359,7 +359,7 @@ sql_db   = "otserv"
 sql_host = "127.0.0.1"
 sql_port = 3306
 sql_user = "root"
-sql_pass = ""  -- CHANGE THIS! Use a secure password!
+sql_pass = "your_secure_password_here"  -- CHANGE THIS! Use a secure password!
 
 -- Guild War Fee
 -- The addition 'war charge' to start a guild war (default: 1000)

@@ -114,10 +114,10 @@ On your **destination computer** (where you want to run the server):
 The `config.lua` has several IP-related settings:
 
 ```lua
-ip = "127.0.0.1"          # Server listening address
-login_port = "7171"        # Login server port
-game_port = "7172"         # Game server port
-status_port = "7171"       # Status port
+ip = "127.0.0.1"          -- Server listening address
+login_port = "7171"        -- Login server port
+game_port = "7172"         -- Game server port
+status_port = "7171"       -- Status port
 ```
 
 **Common scenarios:**
@@ -129,12 +129,12 @@ status_port = "7171"       # Status port
 ### Database Settings
 
 ```lua
-sql_type = "mysql"         # Database type
-sql_host = "127.0.0.1"     # MySQL server address
-sql_port = 3306            # MySQL port
-sql_user = "root"          # Database username
-sql_pass = ""              # Database password
-sql_db = "otserv"          # Database name
+sql_type = "mysql"         -- Database type
+sql_host = "127.0.0.1"     -- MySQL server address
+sql_port = 3306            -- MySQL port
+sql_user = "root"          -- Database username
+sql_pass = ""              -- Database password
+sql_db = "otserv"          -- Database name
 ```
 
 ## Troubleshooting
