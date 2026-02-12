@@ -12,6 +12,7 @@ It is a fork of the [OpenTibia Server](https://github.com/opentibia/server) proj
 * Compatible AAC, ZnoteAAC [HERE](https://github.com/Znote/ZnoteAAC).
 * Flags calculator [HERE](https://diegorodriguesvieira.github.io/flags-calculator/).
 * MySql_Schema.sql default `account // password` is `123456 // tibia`.
+* **Transferring to another computer?** See [TRANSFER_GUIDE.md](TRANSFER_GUIDE.md)
 * For more information check our [Wiki](https://github.com/TwistedScorpio/OTHire/wiki).
 
 #### Using Docker
